@@ -22,7 +22,7 @@ const ColorProvider = ({ children }) => {
 };
 
 // const ColorConsumer = ColorContext.Consumer와 같은 의미
-const { Consumer: ColorConsumer } = ColorContext;
+const ColorConsumer = ColorContext.Consumer;
 
 // ColorProvider와 ColorConsumer 내보내기
 export { ColorProvider, ColorConsumer };
